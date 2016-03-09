@@ -26,7 +26,7 @@ Start your own Stock Checker with this script, you'll be able to scan any produc
 
 ## Installation
 
-1. Import stock.sql into your databse.
+1. Import stock.sql into your database.
 2. Setup your settings in config.php, most important are under "Database Definitions", "SMTP (Mail) Settings" and "Twitter Settings" sections.
 3. If you use different mysql tables, you must edit "Database Tables" section in same config too.
 4. DO NOT DELETE admin's user. You can change the password, but do not delete it, as it's the only one with all permissions. If you want to allow other user to be admin, it should be added to current system or you can do it manually in the db (table: ss_users, column: user_role).
@@ -42,7 +42,7 @@ Start your own Stock Checker with this script, you'll be able to scan any produc
 
 1. Once installed go to /admin/
 2. Add retailers and their logos
-3. Add categoires for products you're going to stock check
+3. Add categories for products you're going to stock check
 4. Add URLs for the products you have setup to stock check
 
 ## Demo
@@ -69,7 +69,7 @@ Latest Version: **v1.0.0**
 
 ## Support
 
-Please open an issue or sumbit a ticket at <a href="http://support.dyversedigital.com/stockchecker">support.dyversedigital.com/stockchecker/</a>
+Please open an issue or submit a ticket at <a href="http://support.dyversedigital.com/stockchecker">support.dyversedigital.com/stockchecker/</a>
 
 ## Credits
 
